@@ -32,7 +32,7 @@
 }
 
 .header h1{
-    padding-top: 200px;
+    padding-top: 260px;
     padding-bottom: 0;
     font-size: 55px;
 }
@@ -68,4 +68,17 @@
     border-radius: 30px !important;
     box-shadow: none !important;
     margin: 0; /* Remove any margin */
+}
+
+.features{
+    padding: 100px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+    width: 100%;
 }
