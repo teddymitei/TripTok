@@ -60,10 +60,12 @@
 
 .input-group-text{
     width: 100px;
+    height: 100%; /* Set height to 100% */
     background-image: linear-gradient(#00ff7e, #1f3d90);
     border: 0 !important;
     color: #fff !important;
     padding: 0 25px !important;
     border-radius: 30px !important;
     box-shadow: none !important;
+    margin: 0; /* Remove any margin */
 }
