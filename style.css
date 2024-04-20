@@ -42,7 +42,7 @@
 }
 
 .input-group{
-    width: 90%;
+    width: 90% !important;
     max-width: 500px;
     border-radius: 30px;
     background: #fff;
@@ -197,4 +197,77 @@ h1{
 
 .users-feedback{
     padding: 100px 0;
+}
+
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p{
+    padding: 50px 10px 10px 10px;
+    position: relative;
+}
+
+.users-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d, #9610fd);
+    color: #fff;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+
+.footer .copyright{
+    text-align: center;
 }
